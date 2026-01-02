@@ -8936,7 +8936,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-hireme {
   background: #6ab7ff;
-  z-index: -1; }
+  z-index: auto; }
   .ftco-hireme h2 {
     color: #fff;
     font-size: 40px;
