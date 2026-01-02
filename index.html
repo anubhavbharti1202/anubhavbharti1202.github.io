@@ -81,19 +81,19 @@
 
 @keyframes typing {
   from {
-    width: 0;
+	width: 0;
   }
   to {
-    width: 100%;
+	width: 100%;
   }
 }
 
 @keyframes typing-cursor {
   from {
-    width: 5px;
+	width: 5px;
   }
   to {
-    width: 0;
+	width: 0;
   }
 }
 
@@ -109,6 +109,12 @@
   transform: scale(1.1);
 }
 
+/* Ensure links inside the hireme section are clickable above any background/overlay */
+.ftco-section.ftco-hireme .heading,
+.ftco-section.ftco-hireme .heading a {
+  position: relative;
+  z-index: 10;
+}
 
 </style>
 
@@ -504,17 +510,17 @@
       </div> -->
 	
 	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/op_2.jpg)">
-			<!-- <div class="container"> -->
+			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>More projects on<span> Peerlist  </span> </h2>
 						<div class="heading"> <h4> I uncover hidden patterns in data and craft stories that inspire smarter business outcomes. </h4>
-						<br>
+						<!-- <br> -->
 						<p><a href="https://peerlist.io/anubhavbharti" class="btn btn-primary py-3 px-5">Peerlist</a></p>
 						</div>
 					</div>
 				</div>
-			<!-- </div> -->
+			</div>
 		</div>
 	</section>
 
@@ -555,7 +561,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:anubhavofficial1222@gmail.com">anubhavofficial1222@gmail.com</a></p>
+	            <p><a href="#">anubhavofficial1222@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
